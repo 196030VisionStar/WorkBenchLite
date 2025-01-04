@@ -1,0 +1,195 @@
+WorkBench Lite Product Manual
+________________________________________
+Table of Contents
+1.	Introduction
+2.	System Requirements
+3.	Getting Started
+4.	Core Features
+5.	Core Modules
+6.	Navigation and Interface
+7.	Usage Scenarios
+8.	Troubleshooting and FAQs
+9.	Support and Feedback
+10.	Transaction Status
+11.	Glossary
+________________________________________
+1. Introduction
+Welcome to WorkBench Lite, the innovative mobile application tailored for Field Extension Officers (FEOs) to streamline field operations. Designed to overcome challenges such as poor internet connectivity, high data consumption, syncing delays and inefficient forms and long processes. WorkBench Lite provides a seamless and efficient offline-first experience for Agro-tech industry stakeholders. 
+Key Benefits:
+•	Offline functionality with automatic syncing.
+•	Realtime update across all modules. 
+•	Simplified forms that enhances efficiency. 
+________________________________________
+2. System Requirements
+•	Device Specifications: Android smartphone with at least 2GB RAM and 16GB storage.
+•	Android Version: Android 8.0 (Oreo) or higher.
+•	Network Requirements: While the app operates offline, an internet connection is needed periodically for syncing of data.
+________________________________________
+
+3. Getting Started
+Installation:
+1.	Download WorkBench Lite from the Google Play Store or via the provided APK link.
+2.	Install the app and agree to the required permissions (Camera, location and storage).
+Login and Setup:
+1.	Launch the app and select your preferred language (top right)
+2.	Log in using your existing credentials (Username and password).
+3.	App automatically sync your default data.
+Note: The default language is English. 
+________________________________________
+4. Core Features
+•	Offline Mode: Perform tasks offline with automatic syncing when online.
+•	Realtime Update Push: Receive instant updates without manual refresh when connection is established.
+•	Global Connectivity Status: Monitor connection status across all screens on the application. (Connected, Attempting connection, Disconnected).
+•	Data Synchronization: Activities performed with WorkBenchPro seamlessly sync with WorkBench Lite and vice versa.
+________________________________________
+5. Core Modules
+•	Cooperative Creation: Simplified forms to create new cooperatives. 
+•	Farmer Management: Shorter and efficient way to register a new farmer in under 3 minutes. 
+•	GRN Management: Create, edit, and print Goods Receipt Notes with ease.
+•	Loan Booking: Book, edit and print loans smoothly and efficiently in under 1 minute.
+________________________________________
+6. Navigation and Interface
+User Interface Overview:
+•	Default Data and Metrics: Displays key information of the logged in user. The name and location of the FEO as well as a connection status icon. Default metrics include Cooperative and farmer count of the FEO. The farmer count is a ratio of the total number that is saved and available offline against the total number of farmers the FEO has. 
+•	Quick Actions: Access quick actions like Register Farmer, Book Loan, Raise GRN, Create Cooperative and My Cooperatives from the home screen. 
+•	Farmer Menu: Displays a list of all farmers you have. Basic information like Farmer name, Folio ID and cooperative name is displayed and when appropriate, Transaction Status of the farmer as well.
+Note: The farmer module continuously pulls farmer records to be saved offline immediately you are connected. 
+•	GRN: Displays a list of all GRNs raised by the FEO with their appropriate transaction status. 
+•	Loan: Displays a list of all loan project an FEO has access to based on their warehouse. Opening a project displays the list of loans booked by the FEO for various farmers under that project. 
+________________________________________
+7. Usage Scenarios
+Creating a Cooperative:
+1.	On the home screen, click on “Create Cooperative”
+2.	Fill the Cooperative Creation form
+o	Step 1: Enter the name of the cooperative you wish to create.
+o	Step 2: Search and click on the Ward the cooperative belongs to.
+o	Step 3: Tap to upload cooperative document (Affidavit and Certificate) is available.
+3.	On the Cooperative preview page, confirm all the Cooperative information is accurate and click submit. 
+Cooperative is created successfully. 
+
+How to create a cooperative
+
+Creating a Farmer:
+1.	On the home screen, click on “Register Farmer” or tap the “Add Farmer” by the bottom right of the Farmer Module.
+2.	Fill the farmer registration form (5 steps)
+o	Step 1 - Capture Farmer Face
+o	Step 2 – Fill in the farmer personal details (Name, DOB, phone number and ID number)
+o	Step 3 – Fill in the additional details (House address, crop type and cooperative)
+o	Step 4 – Log the farm Coordinate (Optional)
+o	Step 5 – Log the house coordinate (Optional)
+
+How to register a farmer
+
+3.	On the farmer preview page, confirm all the provided information is accurate then click submit.
+Farmer record is captured successfully. If connected the registration is pushed to the server immediately for processing and a response is gotten and published in realtime. 
+
+Updating a Farmer:
+1.	On the Farmer module, search and click on farmer you wish to update.
+2.	Click on “Edit Profile” to update personal information (Name, phone number, Identification, House address and Crop)
+o	Step 1: make desired changes to the field(s) you wish to update.
+Click ‘Submit’ to proceed. 
+
+3.	Click on “Update Photo” to update the farmer photo
+o	Step 1: Tap “Click To Change Photo” to open the phone camera and capture the image
+              Click ‘Submit’ to proceed. 
+4.	Click on “Coordinates” to update the farmer house or farm coordinate
+o	Step 1: Click on Farm Coordinates to open the “Log Farm Coordinate” Form
+o	Step 2: Click on the “+ Click To Log Coordinate” button to record a coordinate point. 
+o	Repeat Step 2 until all coordinates are captured
+Note: a minimum of 4 unique coordinates are required
+Click on “Submit” to proceed. 
+To log Coordinate, repeat the steps above and select “House Coordinates” to open the house coordinate form.
+5.	Click on “Banks” to update a farmer bank detail
+o	Step 1: Click on “Add Bank” to display the “Bank Form”
+o	Fill on the required information on the form (Bank name, BVN, Account Number)
+How to edit a farmer information video
+            Click on submit to proceed.
+
+Note: After submitting an edit request, it goes for review. Upon approval by a back-office staff, the edit made is effected in real-time. If it is rejected, the existing farmer information is left as it is. 
+
+Booking a Loan:
+1.	On the home screen, click on “Book Loan”
+Fill the loan booking form
+o	Step 1: Select the project under which the loan is to be booked.
+o	Step 2: Search and click on the farmer you wish to book the loan for.
+o	Step 3: Select the desired bundle from the dropdown and input the number of hectares. 
+o	Step 4: Capture the farmer face 
+2.	On the loan preview page, confirm all the booking information is accurate and click submit
+Loan is booked successfully. 
+
+How to book a loan Video
+Note: For loans with facial recognition, Image token verification is done immediately the loan is booked and the transaction status of the loan is updated (Failed) if the verification fails. The FEO can then edit the loan and capture the face again and for loans without facial recognition enabled, step 4 above will not be required. 
+
+Raising a GRN:
+1.	On the home screen, click on “Raise GRN”
+Fill the GRN form
+o	Step 1: Select the Commodity
+o	Step 2: Search and click on the farmer you wish to raise the GRN for.
+o	Step 3: Confirm the commodity price and then proceed to fill the parameters of the GRN (Gross weight, grade, moisture content)
+o	Step 4: Input the truck number and confirm the payment amount. 
+2.	On the GRN preview page, confirm that the information provided is accurate and click submit. 
+GRN is raised successfully. 
+How to raise a GRN video
+
+________________________________________
+
+8. Troubleshooting and FAQs
+Common Issues and Solutions:
+•	Syncing Errors: Ensure a stable internet connection and the app with sync automatically.
+•	Login Issues: Verify credentials or reset the password via support.
+•	UI Feedback Confusion: Share screenshots to your designated escalation groups.
+•	Missing data: Ensure the application is connected and search using the complete folio ID or farmer name. 
+FAQs:
+1.	How do I check connection status?
+o	Use the Global Connectivity Status indicator at the top of the navigation bar.
+2.	What are the various connection status?
+o	Attempting Connection: Colour coded with amber means you have internet on, but the application is yet to connect to the internet. 
+o	Disconnected: Colour coded with red means your phone internet is off. 
+o	Connected: Colour coded with green means your application is connected and all activities occur in real-time. 
+Note: When connected, the global connectivity status is not displayed. 
+3.	Can I use the app without internet?
+o	Yes, all features are available offline, and data syncs automatically when online.
+4.	What do I do if I cannot find a data (Farmer, loan or GRN) locally? 
+o	Ensure you are connected to the internet and search for the farmer using the name, GRN ID or complete folio ID of the farmer. 
+5.	Can I use both WorkBench and WorkBench lite on the same phone?
+o	Yes, you can install both application on the same device and use either one based on your preference. 
+6.	Can Warehouse managers login to WorkBench Lite? 
+o	No, only FEO’s can login on WorkBench Lite. 
+7.	What do I do, when my activity fails? 
+o	Click on the activity and view the error message. This will guide you to determine why an activity failed. (See error log)
+8.	How do I resolve the error message “Farmer edit is disabled, contact your admin” 
+o	This means that edit is currently disabled for the farmer. To resolve, send the Folio ID to your tenant admin to “enable farmer edit” via dedicated Whatsapp channels 
+9.	How do I change my preferred language? 
+o	You can switch to your preferred language either from the login page, or the sidebar inside the application. 
+________________________________________
+9. Support and Feedback
+For assistance or to provide feedback:
+•	Email: productmanagement@africaexchange.com
+•	Whatsapp:
+________________________________________
+10. Transaction Status
+This refers to the status of all activities performed on the application. 
+S/N	Transaction Status	Meaning	Modules	Colour
+1	Not Sync	Yet to sync. 	All Modules	Not Synced
+2	Pending	Syned successfully, awaiting back-office action 	All Modules	Pending
+3	Processing 	Synced and currently in queue for server processing to return a response.	Farmer registration 	Processing 
+4	In-Review	Activity is under review by back-office staff	Farmer edit	In-Review
+5	Successful	Farmer has been created successfully 	Farmer	Successful
+6	Verified	Identity has been verified	Farmer and
+Cooperatives	Verified
+7	Unverified	Identity has not been verified	Farmer and cooperatives	Unverified
+8	Approved	First leg of approval is completed	Loan and GRN	Approved
+9	Approval Completed	Final leg of approval is completed	Loan and GRN	Approval Completed
+10	Rejected	Request has been rejected	Loan and GRN 	Rejected
+11	Reverted	Request has been reverted	Loan and GRN	Reverted
+12	Failed	Action failed and returned an error	Farmer, Loan, GRN, Cooperative	Failed
+13	Disbursed	Final leg of loan disbursement has occurred	Loan 	Disbursed
+14	Delayed	Book loan is waiting for validation to pass before it can be completed.	Loan	Delayed
+
+________________________________________
+11. Glossary
+•	FEO (Field Extension Officer): Outreach officers who help with farmer registration, loan booking, and outreach activities.
+•	GRN (Goods Receipt Note): A document confirming the receipt of commodities by AFEX staff.
+•	MQTT: Lightweight messaging protocol used for efficient data transfer.
+•	Sync: Pushing and pulling of data from the system 
+	
